@@ -43,7 +43,7 @@ A comprehensive personal finance management application built with Next.js 15, T
 
 ### Option 1: Using shadcn CLI (Recommended)
 
-\`\`\`bash
+```bash
 # Clone the repository or download the code
 git clone <repository-url>
 
@@ -54,17 +54,17 @@ npx shadcn@latest init
 
 # Run development server
 npm run dev
-\`\`\`
+```
 
 ### Option 2: Manual Setup
 
-\`\`\`bash
+```bash
 # Install dependencies
 npm install
 
 # Run development server
 npm run dev
-\`\`\`
+```
 
 The application will be available at `http://localhost:3000`
 
@@ -126,7 +126,7 @@ The application will be available at `http://localhost:3000`
 ## Data Structure
 
 ### Transaction Object
-\`\`\`typescript
+```typescript
 {
   id: string              // Unique identifier
   type: 'income' | 'expense'
@@ -135,16 +135,17 @@ The application will be available at `http://localhost:3000`
   date: string           // ISO date string (YYYY-MM-DD)
   notes?: string         // Optional notes
 }
-\`\`\`
+```
 
 ### Category Object
-\`\`\`typescript
+
+```typescript
 {
   id: string                    // Unique identifier
   name: string                  // Category name
   type: 'income' | 'expense'   // Category type
 }
-\`\`\`
+```
 
 ## Browser Compatibility
 
